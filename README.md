@@ -1,4 +1,9 @@
 # test0930 pasitikrinti ar viskas veikia
+Tam, kad paleistumėte aplikaciją testavimui, reikės turėti duomenų bazę MySQL. Užduotyje dažniausiai buvo siūloma įsidiegti XAMPP, bet paprasčiau duomenų bazę paleisti per Docker.
+Paleiskite Docker Desktop, taip, kaip darėte per DB kursą, ir komandinėje eilutėje paleiskite komandą, pvz.:
+docker run --name exam-mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=yes -p 3306:3306 -d mysql:8.4.9
+Galite Docker Desktop pasitikrinti ar pasileido:
+
 Gerai, atidaryti terminalą IntelliJ – apačioje Terminal skirtukas.
 Įvesti šias komandas po vieną (po kiekvienos paspauskite Enter ir palaukite):
 1.
